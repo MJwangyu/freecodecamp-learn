@@ -1,0 +1,13 @@
+HTML有一个特殊元素，用于创建ordered lists（有序列表）, 或数字编号列表。
+
+有序列表以<ol>元素开始，并包含一个或多个<li>元素。
+
+例如：
+
+<ol>
+  <li>Garfield</li>
+  <li>Sylvester</li>
+</ol>
+将创建一个包含"Garfield"和"Sylvester"的数字编号列表。
+
+创建一个有关猫咪最痛恨的三件事情Top 3 things cats hate:的有序列表。

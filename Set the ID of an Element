@@ -1,0 +1,73 @@
+除了 class属性之外，每一个 HTML 元素还可以使用 id 属性。
+
+使用 id 属性有若干好处，一旦当你开始使用 jQuery 的时候你会有更深的体会。
+
+id 属性应该是唯一的，虽然浏览器并不强制唯一，但基于最佳实践，这一点是被广泛认可的，所以请不要给一个以上的元素设置相同的 id 属性。
+
+下面举例说明了如何设置h2 元素的id属性为cat-photo-app。
+
+<h2 id="cat-photo-app">
+
+任务：设置 form 元素的id属性为 cat-photo-form。
+
+代码：
+<link href="https://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: Monospace;
+  }
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }
+  .gray-background {
+    background-color: gray;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+
+<p>Click here for <a href="#">cat photos</a>.</p>
+
+<a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back" src="/images/relaxing-cat.jpg"></a>
+
+<div class="gray-background">
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+</div>
+
+<form action="/submit-cat-photo" id="cat-photo-form">
+  <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+  <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+  <label><input type="checkbox" name="personality" checked> Loving</label>
+  <label><input type="checkbox" name="personality"> Lazy</label>
+  <label><input type="checkbox" name="personality"> Energetic</label>
+  <input type="text" placeholder="cat photo URL" required>
+  <button type="submit">Submit</button>
+</form>

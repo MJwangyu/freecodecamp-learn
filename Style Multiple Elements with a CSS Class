@@ -1,0 +1,23 @@
+你可以在 HTML 元素的开始标记中通过使用class="your-class-here"来将 class 附加到相关元素中。
+
+CSS 类选择器必须添加.为前缀，如下：
+
+.blue-text {
+  color: blue;
+}
+但在HTML中class属性的值不需要添加.为前缀，如下：
+
+<h2 class="blue-text">CatPhotoApp</h2>
+
+将red-text类应用到h2和p元素中。
+
+代码：
+<style>
+  .red-text {
+    color: red;
+  }
+</style>
+
+<h2 class="red-text">我家的猫咪</h2>
+
+<p class="red-text">在大家心目中，猫是慵懒的可爱的化身，它可以睡饱了再起来吃饭，可以逗趣小耗子，可以卖得了萌，使得了坏，这样百变的小怪兽就集结在一只宠物上，怎能不惹人怜爱。</p>

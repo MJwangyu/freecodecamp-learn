@@ -1,0 +1,32 @@
+有几种默认的字体是所有浏览器都可用的，包括Monospace、Serif和Sans-Serif。
+
+当某种字体不可用时，你可以让浏览器自动降级到另一种字体。
+
+例如，如果你想让段落的字体为Helvetica，但你同时想在Helvetica字体不可用时自动降级使用Sans-Serif字体，你可以使用如下CSS样式：
+
+p {
+  font-family: Helvetica, Sans-Serif;
+}
+现在注释掉link标签，以使Lobster字体不可用。请仔细观察浏览器是如何降级到Monospace字体的。
+
+代码：
+<link href="https://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: Monospace;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+
+<p class="red-text">在大家心目中，猫是慵懒的可爱的化身，它可以睡饱了再起来吃饭，可以逗趣小耗子，可以卖得了萌，使得了坏，这样百变的小怪兽就集结在一只宠物上，怎能不惹人怜爱。</p>
+<p class="red-text">养动物有的时候，就是介于爱与恨之间，当你钦羡别人萌宠这么可爱的时候，你一定没有想过，狗狗和猫猫会到处拉屎，甚至会屯老鼠，啃鞋子，用爪子爬门，你不理它，它就挠你，你要对它发脾气，它会比你更来劲。所以，狗猫慎入，没有一定的准备，切勿随便去侍养动物。它们一旦认定你了，你就是它们的主人，如果你抛弃它们，它们必定心中重创。</p>

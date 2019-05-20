@@ -11,3 +11,42 @@ HTML有一个特殊元素，用于创建unordered lists（无序列表）, 或�
 将会创建一个带项目符号的"milk"和"cheese"列表。
 
 删除最后两个p元素，然后在页面底部创建一个有关猫咪喜欢的三件事情的无序列表。
+
+代码：<link href="https://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: Monospace;
+  }
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+
+<p>Click here for <a href="#">cat photos</a>.</p>
+
+<a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back" src="/images/relaxing-cat.jpg"></a>
+
+<ul>
+  <li>玩球</li>
+  <li>吃鱼</li>
+  <li>睡觉</li>
+</ul>

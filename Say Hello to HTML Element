@@ -19,3 +19,8 @@ h1就是一个HTML元素，h1是header1的简写，意思是一级标题。
 如果你点击Run tests后没反应，说明测试没通过，用鼠标拖动课程区的滚动条到最下面，可以看到你没有通过测试的详细原因。
 
 任务：请更改h1标签中的Hello为Hello World，然后点击Run tests。
+
+
+代码：
+<h1>Hello</h1>
+<h1>Hello World</h1>

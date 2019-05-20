@@ -1,0 +1,46 @@
+CSS 边框的属性有style(样式)、color(颜色)、width(宽度)、height(高度)等。
+
+举个例子，如果我们想要让一个HTML元素的边框颜色为红色、边框宽度为5像素(px)、边框样式为固体(solid)，代码如下:
+
+<style>
+  .thin-red-border {
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+  }
+</style>
+任务：创建一个叫thick-green-border的class，让它的边框宽度为10像素、边框样式为solid(固体)、边框颜色为绿色(green)，然后把这个class应用到你的猫咪照片上。
+
+提示：你可以应用多个class到一个元素，只需要在多个class之间用空格分开即可。例如：
+
+<img class="class1 class2">
+
+代码：
+<link href="https://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+  .thick-green-border{
+    border-color:green;
+    border-width:10px;
+    border-style:solid;
+  }
+
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: Monospace;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+
+<img class="smaller-image thick-green-border" src="/images/relaxing-cat.jpg">

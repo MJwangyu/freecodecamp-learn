@@ -11,3 +11,51 @@ HTML有一个特殊元素，用于创建ordered lists（有序列表）, 或数�
 将创建一个包含"Garfield"和"Sylvester"的数字编号列表。
 
 创建一个有关猫咪最痛恨的三件事情Top 3 things cats hate:的有序列表。
+
+代码：
+<link href="https://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: Monospace;
+  }
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+
+<p>Click here for <a href="#">cat photos</a>.</p>
+
+<a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back" src="/images/relaxing-cat.jpg"></a>
+
+<p>Things cats love:</p>
+<ul>
+  <li>cat nip</li>
+  <li>laser pointers</li>
+  <li>lasagna</li>
+</ul>
+<p>Top 3 things cats hate:</p>
+<!-- 请把你的代码写在这条注释以下 -->
+<ol>
+  <li>捉老鼠</li>
+  <li>没鱼吃</li>
+  <li>不被疼爱</li>
+</ol>

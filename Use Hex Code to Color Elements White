@@ -1,0 +1,12 @@
+0 是 hex code（十六进制编码）中最小的一个，它代表颜色的完全缺失。
+
+F 是 hex code（十六进制编码）中最大的一个，它代表最大可能的亮度。
+
+让我们通过把 background-color 的 hex code 修改为 #FFFFFF，以把 body 元素的背景改为白色。
+
+代码：
+<style>
+  body {
+    background-color: #ffffff;
+  }
+</style>

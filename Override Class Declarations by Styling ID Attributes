@@ -1,0 +1,37 @@
+我们刚刚证明了浏览器读取 CSS 的顺序是从上到下，这意味着，在发生冲突时，浏览器会使用最后的 CSS 声明。
+
+但是并非只有这些，还有其他覆盖 CSS 的方法。你还记得 id 属性吗？
+
+让我们来覆盖你的 pink-text 和 blue-text 两个 class，通过为 h1 元素添加 id 并设置 id 的样式，使你的 h1 元素变成 orange（橙色）。
+
+给你的 h1 元素添加名为 orange-text 的 id 属性。记住，id 样式看起来是这样的：
+
+<h1 id="orange-text">
+
+在你的 h1 元素中保留 blue-text 和 pink-text 两个 class。
+
+在你的 style 元素中为你的 orange-text id 创建一个 CSS 声明，就像下面例子中的样子：
+
+#brown-text {
+  color: brown;
+}
+注意：你声明的这个 CSS 在 pink-text类选择器的上面还是下面是无所谓的，因为 id 属性总是具有更高的优先级。
+
+代码：
+<style>
+  body {
+    background-color: black;
+    font-family: Monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+  #orange-text{
+    color:orange;
+  }
+</style>
+<h1 class="pink-text blue-text" id="orange-text">Hello World!</h1>

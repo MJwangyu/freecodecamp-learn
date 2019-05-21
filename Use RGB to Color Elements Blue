@@ -1,0 +1,8 @@
+将你的 body 元素的背景色修改为蓝色的 RGB 值：rgb(0, 0, 255)。
+
+代码：
+<style>
+  body {
+    background-color: rgb(0, 0, 255);
+  }
+</style>

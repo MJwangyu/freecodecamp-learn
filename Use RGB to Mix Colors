@@ -1,0 +1,10 @@
+就像使用 hex code 一样，你可以使用不同数值的组合在 RGB 中混合出各种颜色。
+
+将 body 元素的背景色修改为橙色的 RGB 值：rgb(255, 165, 0)。
+
+代码：
+<style>
+  body {
+    background-color: rgb(255, 165, 0);
+  }
+</style>

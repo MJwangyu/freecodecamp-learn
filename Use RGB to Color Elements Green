@@ -1,0 +1,8 @@
+现在将body 元素的背景色修改为绿色的 rgb 值：rgb(0, 255, 0)。
+
+代码：
+<style>
+  body {
+    background-color: rgb(0, 255, 0);
+  }
+</style>

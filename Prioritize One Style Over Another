@@ -1,0 +1,22 @@
+有时你的 HTML 元素会得到相互冲突的多个样式。
+
+例如，你的 h1 元素不能同时为绿色和粉色。
+
+让我们来看看当我们创建一个使其文字为粉色的 class 时会发生什么，然后将其应用到某元素。我们的 class 会 override（覆盖） body 元素的 color: green; CSS 属性吗？
+
+创建一个使元素颜色成为粉色的名为 pink-text 的 CSS class。
+
+设置 h1 元素的 class 为 pink-text。
+
+代码：
+<style>
+  body {
+    background-color: black;
+    font-family: Monospace;
+    color: green;
+  }
+  .pink-text{
+    color:pink;
+  }
+</style>
+<h1 class="pink-text">Hello World!</h1>

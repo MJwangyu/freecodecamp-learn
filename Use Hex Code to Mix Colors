@@ -1,0 +1,12 @@
+从这三种纯色（红、绿、蓝），我们能得到 1600 万种其它的颜色。
+
+例如，橙色是纯红，混合一些绿，没有蓝。
+
+通过对 background-color 应用 hex code 值 #FFA500 以把 body 元素的背景色设置为橙色。
+
+代码：
+<style>
+  body {
+    background-color: #FFa500;
+  }
+</style>

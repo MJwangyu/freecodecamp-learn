@@ -1,0 +1,18 @@
+在 JavaScript 中，当 + 操作符与 字符串 一起使用的时候，它被称作 连接 操作符。你可以通过和其他字符串连接 来创建一个新的字符串。
+
+举个例子
+
+'My name is Alan,' + ' I concatenate.'
+注意
+当心空格。连接操作不会添加两个字符串之外的空格，所以想加上空格的话，你需要自己在字符串里面添加。
+
+任务
+使用 + 操作，把字符串 "This is the start. " 和 "This is the end." 连接起来并赋值给变量 myStr。
+
+code:
+// 举例
+var ourStr = "I come first. " + "I come second.";
+
+// 请只修改这条注释以下的代码
+
+var myStr="This is the start. "+"This is the end.";

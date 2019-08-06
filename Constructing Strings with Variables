@@ -1,0 +1,17 @@
+有时候你需要创建一个填字风格的字符串。
+
+通过使用连接运算符 + ，你可以插入一个或多个变量来组成一个字符串。
+
+任务
+把你的名字赋值给变量 myName ，然后把变量 myName 插入到字符串 "My name is " 和 " and I am swell!"之间，并把连接后的结果赋值给变量 myStr。
+
+code:
+// 举例
+var ourName = "Free Code Camp";
+var ourStr = "Hello, our name is " + ourName + ", how are you?";
+
+// 请只修改这条注释以下的代码
+var myName="wangYu";
+var myStr="My name is "+ myName + "and I am swell!";
+
+

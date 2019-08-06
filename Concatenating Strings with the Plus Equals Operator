@@ -1,0 +1,19 @@
+我们还可以使用 += 运算符来 连接 字符串到现有字符串的结尾。对于那些非常长的字符串来说，这一操作是非常有用的。
+
+注意
+当心空格。连接操作不会添加两个字符串外面的空格，所以如果想要加上空格的话，你需要自己在字符串里面添加。
+
+任务
+通过使用 += 操作符来连接这两个字符串:
+"This is the first sentence. " 和 "This is the second sentence." 并赋给变量 myStr。
+
+code:
+// 举例
+var ourStr = "I come first. ";
+ourStr += "I come second.";
+
+// 请只修改这条注释以下的代码
+
+var myStr="This is the first sentence. ";
+myStr +="This is the second sentence.";
+

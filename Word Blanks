@@ -1,0 +1,17 @@
+填词造句
+现在，我们来用字符串的相关知识实现一个造句函数。
+通过使用提供的变量参数：名词myNoun、形容词myAdjective、动词myVerb、副词myAdverb，来创建一个新的句子 result。
+请注意，在英文中，句中的单词是必须用空格来分隔的
+举个例子，如果名词为 "dog"，形容词为 "big"，动词为 "run"，副词为"quickly"，那么函数返回值为 "dog big run quickly" 就是没问题的
+此外，为了句子通顺，你可以在包含所有传入单词的前提下自己添加一些其他单词。对于上面的例子，函数返回值为 "That big brown dog just run quickly" 也是没问题的
+
+code:
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+  var result = "";
+  // 请把你的代码写在这条注释以下
+  result="this big dog just ran quickly.this little cat just hit slowly.";
+  // 请把你的代码写在这条注释以上
+  return result;
+}
+
+wordBlanks("dog", "big", "ran", "quickly","cat","little","hit","slowly");  // 你可以修改这一行来测试你的代码

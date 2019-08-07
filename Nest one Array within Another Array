@@ -1,0 +1,10 @@
+你也可以在数组中包含其他数组，就像这样: [["Bulls", 23], ["White Sox", 45]]。这被称为一个 多维数组。
+任务
+创建一个名为 myArray的多维数组。
+
+code:
+// 举例
+var ourArray = [["the universe", 42], ["everything", 101010]];
+
+// 请只修改这条注释以下的代码
+var myArray = [["I love you",20],["I hate you",20]];

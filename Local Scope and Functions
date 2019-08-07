@@ -1,0 +1,27 @@
+在一个函数内声明的变量，以及该函数的参数都是局部变量，意味着它们只在该函数内可见。
+
+这是在函数 myTest内声明局部变量loc 的最佳例子：
+
+function myTest() {
+  var loc = "foo";
+  console.log(loc);
+}
+myTest(); // "foo"
+console.log(loc); // "undefined"
+在函数外，loc 是未定义的。
+
+任务
+在函数 myFunction 内部声明一个局部变量 myVar，并删除外部console.log。
+
+code:
+function myFunction() {
+  'use strict';
+  var myVar;
+  
+  console.log(myVar);
+}
+myFunction();
+
+// 请先运行这段代码，并在左边的输出区域或浏览器的控制台中查看输出
+// 由于 myVar 在 myFunction 内外均没有定义，因此才会有报错
+// 现在，在 myFunction 中定义 myVar，并删掉 myFunction 外面的 console.log 那一行
